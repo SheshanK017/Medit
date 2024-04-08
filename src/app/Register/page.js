@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 
-const page = () => {
+const Page = () => {
   const [formData, setFormData] = useState({
     name: '',
     country: '',
@@ -117,4 +117,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

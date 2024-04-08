@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const page = () => {
+const Page = () => {
 
  
   return (
@@ -46,7 +46,7 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
 
  {/* <div style={{height:"200px" ,width:"200px"}}>
         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" style={{ isolation: 'isolate',fill: 'blue' }} viewBox="0 0 64 80" x="0px" y="0px"  >

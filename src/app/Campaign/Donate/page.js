@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
 
-const page= () => {
+const Page= () => {
   const [currency, setCurrency] = useState('USD');
   const [amount, setAmount] = useState('');
   const [username, setUsername] = useState('');
@@ -49,4 +49,4 @@ const page= () => {
   );
 };
 
-export default page;
+export default Page;
