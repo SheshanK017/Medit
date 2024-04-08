@@ -1,8 +1,8 @@
-"use client";
+"use client"
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-const page = () => {
+const Page = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
@@ -105,4 +105,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
